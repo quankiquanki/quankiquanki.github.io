@@ -2,7 +2,7 @@ title: QuangN
 author: Quang Nguyen
 description: Computer Scientist (Artificial Intelligence)
 
-markdown: redcarpet
+markdown: kramdown
 highlighter: null
 permalink: /:title
 
