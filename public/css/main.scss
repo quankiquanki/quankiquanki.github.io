@@ -61,9 +61,16 @@ a {
 }
 
 hr {
-  border : 0;
-  height: 25px;
-  background : url(/public/images/eagle.png) center center no-repeat;
+  -moz-border-bottom-colors: none;
+  -moz-border-image: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  border-color: #EEEEEE -moz-use-text-color #FFFFFF;
+  border-style: 1px solid lighten($contrast-color, 50%);
+  border-width: 1px 0;
+  margin-top: 0px;
+  margin-bottom: 18px;
 }
 
 code {
@@ -207,7 +214,6 @@ footer {
 }
 
 .bundle {
-  border-top: 1px solid lighten($contrast-color, 50%);
   padding-top: 10px;
   margin-bottom: 10px;
 }
@@ -253,7 +259,7 @@ dl,
   .top-navbar {
     height: 35px;
     text-align: center;
-    margin-top: 40px;
+    margin-top: 0px;
 	padding-bottom: 60px;
 
     a {
