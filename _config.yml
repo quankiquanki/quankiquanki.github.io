@@ -1,2 +1,17 @@
-	name: Hank Quinlan, Horrible Cop
-	markdown: kramdown
+title: QuangN
+author: Quang Nguyen
+description: Computer Scientist (Artificial Intelligence)
+
+markdown: redcarpet
+highlighter: null
+permalink: /:title
+
+url:
+baseurl:
+
+redcarpet:
+  extensions: [strikethrough, tables]
+
+sass:
+  sass_dir: public/css
+  style: :compressed
