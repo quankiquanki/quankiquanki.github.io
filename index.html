@@ -8,8 +8,16 @@ title: Home
 {% unless post.next %}
 
 {% unless forloop.first %}</div></div>{% endunless %}
-
   <div class="bundle row gutters fadeInDown animated">
+    <div class="center">
+        <div class="blog-description">
+          <h4>
+            My name is Quang Nguyen and I work as a Freelancer specialized in Natural Language Processing
+            and Machine Learning.
+          </h4>
+        </div>
+        <hr>
+    </div>
     <h2 class="post-year col span_2">{{ post.date | date: '%Y' }}</h2>
     <div class="posts-by-year col span_10">
 

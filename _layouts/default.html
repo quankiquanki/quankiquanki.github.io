@@ -10,9 +10,14 @@
           <!-- TODO: add baseurl to the logo link -->
           <a href="{{ site.url }}" id="logo" title="{{ site.title }}"
              style="background-image: url({{site.baseurl}}/public/images/logo.png);"></a>
-		  <h5>Computer Scientist (Artificial Intelligence)</h5>
+          <h5>Computer Scientist (Artificial Intelligence)</h5>        
         </div>
-        {% include navigation.html %}
+        <nav class="col span_9 top-navbar">
+          {% for link in site.data.links %}
+          <a href="{{ link.url }}" title="{{ link.title }}"
+            {% if page.title == link.title %}class="current-page"{% endif %}>{{ link.title }}</a>
+          {% endfor %}
+        </nav>
 		<div class="col span_12 center">
 			<hr>
 		</div>
