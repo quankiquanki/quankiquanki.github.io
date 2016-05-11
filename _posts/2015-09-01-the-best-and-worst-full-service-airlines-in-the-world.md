@@ -1,6 +1,7 @@
 ---
 layout: post
 title: The Best and Worst Full-Service Airlines in the World
+comments: true
 ---
 
 This is a small follow-up to the previous [post](http://www.quangn.com/exploring-reviews-of-airline-services/). At the end of that post, a chart was shown that displayed the best airlines in the world according to their customers overall ratings. This chart however, also took the ratings of all low-cost/budget airlines. The services that these airlines provide are incomparable to full-service airlines like Singapore Airlines and Japan Airlines. People who often travel with low-cost airlines do not have high expectations and are therefore less harsh in their evaluation of the airline. Due to these double standards, budget airlines are often rated higher compared to full-service ones.

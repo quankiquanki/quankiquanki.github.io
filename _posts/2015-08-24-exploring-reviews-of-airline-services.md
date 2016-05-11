@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Exploring Reviews of Airline Services
+comments: true
 ---
 
 In current times, a lot of user generated content can be found on the internet. One specific type of content that has proven to be extremely useful and interesting to people are reviews. Most of the time, when buying a product or service people tend to read reviews to find out if it is worth buying at all. This is also true when dealing with airline services.
