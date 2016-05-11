@@ -6,7 +6,7 @@ markdown: kramdown
 highlighter: null
 permalink: /:title
 
-url:
+url: http://www.quangn.com
 baseurl:
 
 redcarpet:

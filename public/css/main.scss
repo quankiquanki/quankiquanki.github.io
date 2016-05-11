@@ -21,7 +21,7 @@ $avocado-accent-color: #568203;
 
 body {
   background-color: $site-background-color;
-  border-top: 2px solid #57ad68;
+  border-top: 5px solid #57ad68;
   font-family: 'Source Sans Pro', sans-serif;
   color: $contrast-color;
   font-weight: 400;
@@ -70,7 +70,7 @@ hr {
   border-style: 1px solid lighten($contrast-color, 50%);
   border-width: 1px 0;
   margin-top: 0px;
-  margin-bottom: 18px;
+  margin-bottom: 12px;
 }
 
 code {
