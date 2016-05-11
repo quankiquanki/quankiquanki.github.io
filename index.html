@@ -7,6 +7,7 @@ title: Home
 {% for post in site.posts %}
 {% unless post.next %}
 
+  <div class="bundle row gutters">
 {% unless forloop.first %}</div></div>{% endunless %}
     <h2 class="post-year col span_2">{{ post.date | date: '%Y' }}</h2>
     <div class="posts-by-year col span_10">
@@ -16,8 +17,9 @@ title: Home
 {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
 {% if year != nyear %}
 
-{% unless forloop.first %}</div>{% endunless %}
+{% unless forloop.first %}</div></div>{% endunless %}
 
+  <div class="bundle row gutters">
     <h2 class="post-year col span_2">{{ post.date | date: '%Y' }}</h2>
     <div class="posts-by-year col span_10">
 {% endif %}
@@ -30,7 +32,7 @@ title: Home
     </div>
   </article>
 
-{% if forloop.last %}</div>{% endif %}
+{% if forloop.last %}</div></div>{% endif %}
 
 {% endfor %}
 </section>
